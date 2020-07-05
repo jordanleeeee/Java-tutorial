@@ -1,6 +1,6 @@
 package exercise;
 
-public class Barcode {
+public class BarcodeVer1 {
     static final String zero = "///|||";
     static final String one = "//|/||";
     static final String two = "//||/|";
