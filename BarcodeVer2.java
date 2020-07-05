@@ -29,7 +29,14 @@ public class BarcodeVer2 {
        return null;
     }
 
-    //convert barcode to number
+    /**
+     * convert barcode to number
+     * if the barcode length is invalid, print(invalid barcode length) and return -2
+     * if the barcode length is valid but the barcode is invalid, print(invalid barcode) and return -1
+     * if the barcode length and barcode is valid, return that number
+     * @param barcode barcode
+     * @return the number that barcode represent, -1 or -2
+     */
     static int readBarcode(String barcode) {
         //todo add your code here
        return 0;
