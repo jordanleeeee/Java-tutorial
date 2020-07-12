@@ -53,8 +53,9 @@ public class ArrayPractice {
      *  find the largest element in the array
      */
     static int findMaxValue(int[] arr) {
+        int max = arr[0];
         // todo add your code here
-        return 0;
+        return max;
     }
 
     /**
@@ -62,7 +63,7 @@ public class ArrayPractice {
      */
     static int findMinValue(int[] arr) {
         // todo add your code here
-        return 0;
+        return  0;
     }
 
     /**
@@ -79,6 +80,7 @@ public class ArrayPractice {
     static double getSD(int[] arr) {
         // todo add your code here
         return 0;
+
     }
 
     /**
@@ -166,3 +168,29 @@ public class ArrayPractice {
         printArray(intArr);
     }
 }
+
+/*
+    sample output
+    1, 3, 5, 7, 50, 9, 11, 13, 11, 5, 11, 11
+    7, 3, 5, 1, 50, 9, 11, 13, 11, 5, 11, 11
+    7, 3, 9, 1, 50, 5, 11, 13, 11, 5, 11, 11
+    the first index of 5 = 5
+    the first index of 20 = -1
+    the last index of 5 = 9
+    the first index of 80 = -1
+    11 occur in the array for 4 times.
+    the max value in the array is 50
+    the min value in the array is 1
+    the average of this set of number is 11.416666666666666
+    the standard deviation of this set of numbers is 12.175510484392658
+    1, 3, 5, 5, 7, 9, 11, 11, 11, 11, 13, 50
+    11, 50, 3, 13, 5, 11, 5, 7, 11, 11, 9, 1
+    is there two different element in the array such that their sum is = 16? true
+    is there two different element in the array such that their sum is = 2? false
+    is there two different element in the array such that their sum is = 53? true
+    is there two different element in the array such that their sum is = 48? false
+    1, 3, 5, 5, 7, 9, 11, 11, 11, 11, 13, 50
+    11, 13, 50, 1, 3, 5, 5, 7, 9, 11, 11, 11
+    3, 5, 5, 7, 9, 11, 11, 11, 11, 13, 50, 1
+ */
+
