@@ -4,7 +4,7 @@
 
 |In-class exercise|Related topic|Completed|
 |---|---|---|
-|NumberGame|looping, scanner, random|:heavy_check_mark:|
+|[NumberGame](NumberGame.java)|looping, scanner, random|:heavy_check_mark:|
 |CaesarCipher|Array, ArrayList, looping|:heavy_check_mark:|
 |Calculator|Looping|:heavy_check_mark:|
 |ArrayPractice|Array, For loop|:heavy_check_mark:|
