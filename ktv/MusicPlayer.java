@@ -1,4 +1,4 @@
-package exercise;
+package exercise.ktv;
 
 import java.util.ArrayList;
 

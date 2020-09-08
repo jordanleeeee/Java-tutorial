@@ -1,4 +1,4 @@
-package exercise;
+package exercise.gpa;
 
 import java.util.ArrayList;
 

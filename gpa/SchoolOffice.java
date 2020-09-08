@@ -1,4 +1,4 @@
-package exercise;
+package exercise.gpa;
 
 public class SchoolOffice {
     public static void main(String[] args) {

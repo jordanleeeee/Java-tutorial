@@ -1,4 +1,4 @@
-package exercise;
+package exercise.ktv;
 
 public class KTV {
     public static void main(String[] args) {
