@@ -4,9 +4,17 @@
 
 |In-class exercise|Related topic            |Completed|
 |-----------------|-------------------------|---------|
-|ArrayPractice    |Array, For loop          | :heavy_check_mark:    |
-|CaesarCipher     |Array, ArrayList, looping||
-|BarcodeVer1| String, Switch, looping||
+|NumberGame|looping, scanner, random|:heavy_check_mark:|
+|CaesarCipher|Array, ArrayList, looping|:heavy_check_mark:|
+|Calculator|Looping|:heavy_check_mark:|
+|ArrayPractice|Array, For loop          |:heavy_check_mark:|
+|BarcodeVer1| String, Switch, looping|:heavy_check_mark:|
+|KTV|Class and object, ArrayList|:heavy_check_mark:|
+|FindMissNum|Array, algorithm design|:heavy_check_mark:|
+|GPA calculator| Class and object, ArrayList, exception handling||
 
-|Completed Homework| Related topic |
-|------------|---------------------|
+
+|Homework| Related topic |Completed|
+|------------|---------------------|--|
+|Matrix| 2D array, looping| |
+|BarcodeVer2| 2D array, looping||
