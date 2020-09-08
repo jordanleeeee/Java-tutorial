@@ -6,4 +6,7 @@
 |-----------------|-------------------------|
 |ArrayPractice    |Array, For loop          |
 |CaesarCipher     |Array, ArrayList, looping|
-   
+|BarcodeVer1| String, Switch, looping|
+
+|Completed Homework| Related topic |
+|------------|---------------------|
