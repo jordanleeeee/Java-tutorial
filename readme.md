@@ -1,6 +1,6 @@
 ## Java Tutorial ##
 <br>You can get all the exercise and related exercise answer here.</br>
-<br>Enjoy your coding, remember practise makes perfect</br>
+<br>Enjoy your coding, remember practise makes perfect ^ _ ^</br>
 
 |In-class exercise|Related topic|Completed|
 |---|---|---|
@@ -19,3 +19,4 @@
 |---|---|---|
 |[Matrix](Matrix.java)| 2D array, looping| |
 |[BarcodeVer2](BarcodeVer2.java)| 2D array, looping||
+|[TicTacToe](TicTacToe.java)|Class, scanner, looping, 2D array||
