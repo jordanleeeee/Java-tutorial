@@ -8,7 +8,7 @@ public class TicTacToe {
     private String player2;
     private int dimension;          // must be an odd number
     private char[][] gamePane;
-    private int round = 0;
+    private final int round = 0;
 
     /**
      *  initialize all the variable
@@ -105,7 +105,6 @@ public class TicTacToe {
 
         TicTacToe game = new TicTacToe(player1, player2, dimension);
         game.startGame();
-
     }
 }
 
