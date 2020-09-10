@@ -6,7 +6,7 @@ public class TicTacToe {
 
     private String player1;
     private String player2;
-    private int dimension;          // must be an odd number
+    private int dimension;
     private char[][] gamePane;
     private final int round = 0;
 
@@ -62,6 +62,7 @@ public class TicTacToe {
             // process each round of the game
         }
         // todo add your code here
+        // list of action when the game is complete
 
     }
 
@@ -70,10 +71,13 @@ public class TicTacToe {
      *
      * have any row that is all 'o' ?
      * have any row that is all 'x' ?
+     *
      * have any col that is all 'o' ?
      * have any col that is all 'x' ?
+     *
      * from the top left to bottom right is all 'x' ?
      * from the top left to bottom right is all 'o' ?
+     *
      * from the top right to bottom left is all 'x' ?
      * from the top right to bottom left is all 'x' ?
      *
@@ -81,7 +85,7 @@ public class TicTacToe {
      * else return false
      */
     private boolean hasWin() {
-        // add your code here
+        // todo add your code here
 
         // horizontal
 
@@ -100,7 +104,7 @@ public class TicTacToe {
         String player1 = sc.next();
         System.out.println("please enter second player name");
         String player2 = sc.next();
-        System.out.println("please enter dimension (it must be an odd number > 1!)");
+        System.out.println("please enter dimension (it must be integer > 1!)");
         int dimension = sc.nextInt();
 
         TicTacToe game = new TicTacToe(player1, player2, dimension);
