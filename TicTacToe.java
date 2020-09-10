@@ -79,7 +79,7 @@ public class TicTacToe {
      * from the top left to bottom right is all 'o' ?
      *
      * from the top right to bottom left is all 'x' ?
-     * from the top right to bottom left is all 'x' ?
+     * from the top right to bottom left is all 'o' ?
      *
      * if either one of the above is true, return true
      * else return false
