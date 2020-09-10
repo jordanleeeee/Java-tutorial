@@ -34,6 +34,7 @@ public class Matrix {
     }
 
     public static int[][] transpose(int[][] matrix) {
+        // I don't care what is this ....
         return null;
     }
 
