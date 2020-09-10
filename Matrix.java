@@ -22,7 +22,17 @@ public class Matrix {
     }
 
     public static int[][] multiply(int[][] matrix1, int[][] matrix2) {
-        return null;
+        int[][] result = new int[matrix1.length][matrix2[0].length];
+        for (int i = 0; i < matrix1.length; i++) {
+            for (int j = 0; j < matrix2[0].length; j++) {
+                int dotProduct = 0;
+                for (int k = 0; k < matrix1[0].length; k++) {
+                    dotProduct += matrix1[i][k] * matrix2[k][j];
+                }
+                result[i][j] = dotProduct;
+            }
+        }
+        return result;
     }
 
     public static int[][] transpose(int[][] matrix) {
@@ -35,11 +45,11 @@ public class Matrix {
         int[][] anotherMatrix = {{1, 1, 1}, {2, 2, 2}, {0, 0, 0}};
         int[][] thirdMatrix = {{7, 8}, {9, 10}, {11, 12}};
 
-        print(matrix);
-
-        print(add(matrix, matrix2));
-        print(minus(matrix, matrix2));
-        print(transpose(thirdMatrix));
+//        print(matrix);
+//
+//        print(add(matrix, matrix2));
+//        print(minus(matrix, matrix2));
+//        print(transpose(thirdMatrix));
         print(multiply(matrix, thirdMatrix));
 
     }
