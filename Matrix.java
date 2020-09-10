@@ -14,6 +14,7 @@ public class Matrix {
     }
 
     public static int[][] add(int[][] matrix1, int[][] matrix2) {
+        // I don't care what is this
         return null;
     }
 
@@ -26,7 +27,13 @@ public class Matrix {
     }
 
     public static int[][] transpose(int[][] matrix) {
-        return null;
+        int[][] result = new int[matrix[0].length][matrix.length];
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                result[j][i] = matrix[i][j];
+            }
+        }
+        return result;
     }
 
     public static void main(String[] args) {
@@ -35,12 +42,12 @@ public class Matrix {
         int[][] anotherMatrix = {{1, 1, 1}, {2, 2, 2}, {0, 0, 0}};
         int[][] thirdMatrix = {{7, 8}, {9, 10}, {11, 12}};
 
-        print(matrix);
+//        print(matrix);
 
-        print(add(matrix, matrix2));
-        print(minus(matrix, matrix2));
+//        print(add(matrix, matrix2));
+//        print(minus(matrix, matrix2));
         print(transpose(thirdMatrix));
-        print(multiply(matrix, thirdMatrix));
+//        print(multiply(matrix, thirdMatrix));
 
     }
 }
