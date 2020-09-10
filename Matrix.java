@@ -43,9 +43,17 @@ public class Matrix {
         return null;
     }
 
+    /**
+     * to transpose of matrix
+     */
     public static int[][] transpose(int[][] matrix) {
-        // this should be done in transpose branch
-        return null;
+        int[][] result = new int[matrix[0].length][matrix.length];
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                result[j][i] = matrix[i][j];
+            }
+        }
+        return result;
     }
 
     public static void main(String[] args) {
@@ -56,7 +64,7 @@ public class Matrix {
 
         print(add(matrix, matrix2));
         print(minus(matrix, matrix2));
-//        print(transpose(thirdMatrix));
+        print(transpose(thirdMatrix));
 //        print(multiply(matrix, thirdMatrix));
 
     }
