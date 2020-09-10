@@ -1,6 +1,6 @@
 package exercise;
 
-public class Matrix {
+public class MatrixAns {
     
     /**
      * print the matrix
