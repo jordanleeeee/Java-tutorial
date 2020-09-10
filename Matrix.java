@@ -14,18 +14,22 @@ public class Matrix {
     }
 
     public static int[][] add(int[][] matrix1, int[][] matrix2) {
+        // this should be done in add branch
         return null;
     }
 
     public static int[][] minus(int[][] matrix1, int[][] matrix2) {
+        // this should be done in minus branch
         return null;
     }
 
     public static int[][] multiply(int[][] matrix1, int[][] matrix2) {
+        // this should be done in multiply branch
         return null;
     }
 
     public static int[][] transpose(int[][] matrix) {
+        // this should be done in transpose branch
         return null;
     }
 
