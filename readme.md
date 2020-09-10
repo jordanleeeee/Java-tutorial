@@ -17,5 +17,5 @@
 
 |Homework| Related topic |Completed|
 |---|---|---|
-|[Matrix](Matrix.java)| 2D array, looping| |
+|[Matrix](MatrixAns.java)| 2D array, looping|:heavy_check_mark:|
 |[BarcodeVer2](BarcodeVer2.java)| 2D array, looping||
