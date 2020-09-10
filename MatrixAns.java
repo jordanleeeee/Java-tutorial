@@ -38,6 +38,12 @@ public class MatrixAns {
         return result;
     }
 
+    /**
+     * do multiplication for two matrix
+     * @param matrix1 is a m x p matrix
+     * @param matrix2 is a p x n matrix
+     * @return  m x n matrix which is product of matrix1 and matrix2
+     */
     public static int[][] multiply(int[][] matrix1, int[][] matrix2) {
         int m = matrix1.length;
         int p = matrix1[0].length;  // also = matrix2.length
