@@ -1,13 +1,13 @@
-package exercise.ktv;
+package exercise.ktvAns;
 
 import java.util.ArrayList;
 
-public class MusicPlayerAns {
+public class MusicPlayer {
     private int numOfSong;
     private ArrayList<String> musicList;
     private int nextMusic = 0;
 
-    public MusicPlayerAns(String[] music) {
+    public MusicPlayer(String[] music) {
         System.out.println("\ncreate a music player");
         //todo add your code here
         musicList = new ArrayList<>();
