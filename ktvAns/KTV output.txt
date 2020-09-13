@@ -1,0 +1,317 @@
+create a music player
+
+all music:
+>> fade
+   alone
+   let you love me
+   sorry
+   walk my home
+   my heart will go on
+   shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   you raise me up
+
+now playing fade
+
+all music:
+   fade
+>> alone
+   let you love me
+   sorry
+   walk my home
+   my heart will go on
+   shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   you raise me up
+
+now playing alone
+
+all music:
+   fade
+   alone
+>> let you love me
+   sorry
+   walk my home
+   my heart will go on
+   shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   you raise me up
+
+
+skip
+
+all music:
+   fade
+   alone
+   let you love me
+>> sorry
+   walk my home
+   my heart will go on
+   shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   you raise me up
+
+now playing sorry
+
+all music:
+   fade
+   alone
+   let you love me
+   sorry
+>> walk my home
+   my heart will go on
+   shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   you raise me up
+
+now playing walk my home
+
+all music:
+   fade
+   alone
+   let you love me
+   sorry
+   walk my home
+>> my heart will go on
+   shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   you raise me up
+
+
+rewind
+
+all music:
+   fade
+   alone
+   let you love me
+   sorry
+>> walk my home
+   my heart will go on
+   shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   you raise me up
+
+now playing walk my home
+
+all music:
+   fade
+   alone
+   let you love me
+   sorry
+   walk my home
+>> my heart will go on
+   shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   you raise me up
+
+now playing my heart will go on
+
+all music:
+   fade
+   alone
+   let you love me
+   sorry
+   walk my home
+   my heart will go on
+>> shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   you raise me up
+
+
+add music: "alone" to the end of list
+can I add music "alone"? false
+
+all music:
+   fade
+   alone
+   let you love me
+   sorry
+   walk my home
+   my heart will go on
+>> shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   you raise me up
+
+
+add music: "shape of you" to the end of list
+can I add music "shape of you"? true
+
+all music:
+   fade
+   alone
+   let you love me
+   sorry
+   walk my home
+   my heart will go on
+>> shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   you raise me up
+   shape of you
+
+the player contain 12 musics
+
+remove music: alone
+
+all music:
+   fade
+   let you love me
+   sorry
+   walk my home
+   my heart will go on
+>> shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   you raise me up
+   shape of you
+
+
+remove music: oh my god
+
+all music:
+   fade
+   let you love me
+   sorry
+   walk my home
+   my heart will go on
+>> shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   you raise me up
+   shape of you
+
+
+remove music: you raise me up
+
+all music:
+   fade
+   let you love me
+   sorry
+   walk my home
+   my heart will go on
+>> shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   shape of you
+
+
+
+the player contain 10 musics
+
+all music:
+   fade
+   let you love me
+   sorry
+   walk my home
+   my heart will go on
+>> shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   shape of you
+
+
+rewind
+now playing my heart will go on
+now playing shake if off
+now playing one more night
+now playing the greatest love of all
+now playing yellow lemon tree
+now playing shape of you
+no more music
+
+all music:
+   fade
+   let you love me
+   sorry
+   walk my home
+   my heart will go on
+   shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   shape of you
+
+
+rewind
+
+rewind
+
+rewind
+
+rewind
+
+rewind
+
+rewind
+
+rewind
+
+all music:
+   fade
+   let you love me
+   sorry
+>> walk my home
+   my heart will go on
+   shake if off
+   one more night
+   the greatest love of all
+   yellow lemon tree
+   shape of you
+
+
+add music: "miss you finally" to the list at position: 8
+
+all music:
+   fade
+   let you love me
+   sorry
+>> walk my home
+   my heart will go on
+   shake if off
+   one more night
+   the greatest love of all
+   miss you finally
+   yellow lemon tree
+   shape of you
+
+
+add music: "dream dream dream" to the list at position: 0
+
+all music:
+   dream dream dream
+   fade
+   let you love me
+   sorry
+>> walk my home
+   my heart will go on
+   shake if off
+   one more night
+   the greatest love of all
+   miss you finally
+   yellow lemon tree
+   shape of you
