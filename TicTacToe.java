@@ -2,13 +2,16 @@ package exercise;
 
 import java.util.Scanner;
 
+enum GameState {processing, winning, draw}
+
 public class TicTacToe {
 
     private String player1;
     private String player2;
     private int dimension;
     private char[][] gamePane;
-    private final int round = 0;
+    private int round = 0;
+    private GameState state = GameState.processing;
 
     /**
      *  initialize all the variable
@@ -49,25 +52,24 @@ public class TicTacToe {
      *      display the gamePane
      *      tell who is going to take turn
      *      let the user select row and col and place the symbol to the gamePane
+     *          (you can assume user always choose empty grid)
      *      player1 use 'o', player2 use 'x' as the symbol
      *
-     * when the game end, display the gamePane and say Congratulation to the winner
+     * when the game end with someone win, display the gamePane and say Congratulation to the winner
+     * when the game end with draw, display the gamePane and say It is a draw
      */
     private void startGame(){
         System.out.println("Game Start");
         Scanner scanner = new Scanner(System.in);
-        // todo add your code here
-        while(!hasWin()){
-            // todo add your code here
-            // process each round of the game
-        }
-        // todo add your code here
-        // list of action when the game is complete
+        // todo add your code here (the beginning of the game)
 
+        // todo add your code here (the main loop of the game)
+
+        // todo add your code here (the ending of the game i.e. when someone win or a draw)
     }
 
     /**
-     * check if the game is complete
+     * update the game state
      *
      * have any row that is all 'o' ?
      * have any row that is all 'x' ?
@@ -81,21 +83,23 @@ public class TicTacToe {
      * from the top right to bottom left is all 'x' ?
      * from the top right to bottom left is all 'o' ?
      *
-     * if either one of the above is true, return true
-     * else return false
+     * if either one of the above is true, game state will become winning
+     * if it is a draw, draw state will become draw
      */
-    private boolean hasWin() {
+    private void updateGameStatus() {
         // todo add your code here
 
-        // horizontal
+        // someone win?
+            // horizontal
 
-        // vertical
+            // vertical
 
-        // top left to bottom right
+            // top left to bottom right
 
-        // top right to bottom left
+            // top right to bottom left
 
-        return false;
+        // the game draw?
+
     }
 
     public static void main(String[] args) {
@@ -111,6 +115,16 @@ public class TicTacToe {
         game.startGame();
     }
 }
+
+/*
+ you can do extra task when you complete the assignment
+ 1) no longer assume player always choose empty grid in each round, let the user choose another grid
+        when the user choose a non-empty grid
+ 2) add robot player mode:
+        if player name contain "robot", that player will automatically choose any random grid
+            and will go the next player turn
+ */
+
 
 /*
 
