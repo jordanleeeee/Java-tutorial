@@ -1,5 +1,6 @@
 package exercise;
 
+// matrix calculation
 public class Matrix {
     public static void print(int[][] arr) {
         for (int i = 0; i < arr.length; i++) {
