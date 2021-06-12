@@ -1,5 +1,6 @@
 ## Java Tutorial ##
-<br>You can get all the exercise and related exercise answer here.</br>
+<br>This repository is for my student who learn java from me and want to have some practise after class.</br>
+<br>You can get all the in-class and after class exercise and related answer here.</br>
 <br>Enjoy your coding, remember practise makes perfect ^ _ ^</br>
 
 |In-class exercise|Related topic|Completed|
